@@ -16,7 +16,7 @@ if [ -f station_v${version}_$2.tar.gz ]; then
         rm -rf station_v${version}_$2.tar.gz
 fi
 
-sshpass -p 'mooredna' svn export svn+ssh://genia@svn.rsc.roche.com:/home/svn/genia_one_releases/station_releases/station_v${version}_$2.tar.gz
+sshpass -p 'password' svn export svn+ssh://genia@svn.rsc.com:/home/svn/genia_one_releases/station_releases/station_v${version}_$2.tar.gz
 
 echo "INFO: INITIAL TAR FILE is station_v$1_$2.tar.gz"
 
