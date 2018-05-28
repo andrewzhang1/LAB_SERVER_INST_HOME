@@ -15,6 +15,7 @@ If we want to run them outside the Jenkins, we can use the following steps.
 2. Please look into the scripts for the proper arguement; most script need to have 
 one argument on the command line (the argument is a list of the lab machine name!)
 
+```
 /home/genia/GENIA_HOME/sh
 (genia@pallettown)\>
 
@@ -26,3 +27,4 @@ one argument on the command line (the argument is a list of the lab machine name
 
 Questions and advices are welcome!
 
+```
